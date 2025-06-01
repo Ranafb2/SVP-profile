@@ -35,22 +35,27 @@
       white-space: nowrap;
     }
 
-    .info-row {
-      display: flex;
-      align-items: center;
-      margin: 10px 0;
-    }
-
-    .info-row i {
-      color: #777;
-      width: 25px;
-      font-size: 1rem;
+    .info-block {
+      margin-bottom: 15px;
     }
 
     .info-label {
+      display: flex;
+      align-items: center;
       font-weight: 500;
-      color: #333;
-      min-width: 90px;
+      color: #555;
+      font-size: 0.95rem;
+      margin-bottom: 3px;
+    }
+
+    .info-label i {
+      margin-right: 8px;
+      color: #888;
+    }
+
+    .info-value {
+      font-size: 1rem;
+      color: #222;
     }
 
     .info-value a {
@@ -61,12 +66,6 @@
     .info-value a:hover {
       text-decoration: underline;
     }
-
-    .divider {
-      height: 1px;
-      background-color: #e0e0e0;
-      margin: 15px 0;
-    }
   </style>
 </head>
 <body>
@@ -74,41 +73,33 @@
   <div class="card-custom">
     <div class="name">Abdullah S. Alsuwailem</div>
 
-    <div class="info-row">
-      <i class="fas fa-briefcase"></i>
-      <div class="info-label">Job Title:</div>
+    <div class="info-block">
+      <div class="info-label"><i class="fas fa-briefcase"></i> Job Title:</div>
       <div class="info-value">SR VP Western Region Manufacturing</div>
     </div>
 
-    <div class="info-row">
-      <i class="fas fa-building"></i>
-      <div class="info-label">Company:</div>
+    <div class="info-block">
+      <div class="info-label"><i class="fas fa-building"></i> Company:</div>
       <div class="info-value">Saudi Aramco</div>
     </div>
 
-    <div class="info-row">
-      <i class="fas fa-phone"></i>
-      <div class="info-label">Phone:</div>
+    <div class="info-block">
+      <div class="info-label"><i class="fas fa-phone"></i> Phone:</div>
       <div class="info-value"><a href="tel:+966138730164">+966 13 873 0164</a></div>
     </div>
 
-    <div class="info-row">
-      <i class="fas fa-mobile-alt"></i>
-      <div class="info-label">Mobile:</div>
+    <div class="info-block">
+      <div class="info-label"><i class="fas fa-mobile-alt"></i> Mobile:</div>
       <div class="info-value"><a href="tel:+966506863028">+966 050 686 3028</a></div>
     </div>
 
-    <div class="info-row">
-      <i class="fas fa-envelope"></i>
-      <div class="info-label">Email:</div>
-      <div class="info-value">
-        <a href="mailto:Abdullah.suawilem.1@aramco.com">Abdullah.suawilem.1@aramco.com</a>
-      </div>
+    <div class="info-block">
+      <div class="info-label"><i class="fas fa-envelope"></i> Email:</div>
+      <div class="info-value"><a href="mailto:Abdullah.suawilem.1@aramco.com">Abdullah.suawilem.1@aramco.com</a></div>
     </div>
 
-    <div class="info-row">
-      <i class="fas fa-map-marker-alt"></i>
-      <div class="info-label">Location:</div>
+    <div class="info-block">
+      <div class="info-label"><i class="fas fa-map-marker-alt"></i> Location:</div>
       <div class="info-value">Dhahran, Saudi Arabia</div>
     </div>
   </div>
