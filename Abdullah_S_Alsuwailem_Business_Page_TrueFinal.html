@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abdullah S. Alsuwailem</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #dbeaf7, #ffffff);
+      color: #333;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 40px;
+      white-space: nowrap;
+    }
+    .info-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 14px 0;
+      border-top: 1px solid #e0e0e0;
+    }
+    .info-row:first-child {
+      border-top: none;
+    }
+    .info-icon {
+      font-size: 18px;
+      color: #888;
+      width: 32px;
+      text-align: center;
+    }
+    .info-label {
+      font-weight: 500;
+      color: #666;
+      width: 140px;
+    }
+    .info-value {
+      flex-grow: 1;
+      color: #222;
+      font-weight: 400;
+    }
+
+    @media (max-width: 600px) {
+      .info-label {
+        width: 100%;
+        margin-top: 5px;
+      }
+      .info-row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Abdullah S. Alsuwailem</h1>
+    <div class="info-row">
+      <div class="info-icon">💼</div>
+      <div class="info-label">Job Title:</div>
+      <div class="info-value">SR VP Western region manufacturing</div>
+    </div>
+    <div class="info-row">
+      <div class="info-icon">🏢</div>
+      <div class="info-label">Company:</div>
+      <div class="info-value">Saudi Aramco</div>
+    </div>
+    <div class="info-row">
+      <div class="info-icon">📞</div>
+      <div class="info-label">Phone:</div>
+      <div class="info-value">+966138730164</div>
+    </div>
+    <div class="info-row">
+      <div class="info-icon">📱</div>
+      <div class="info-label">Mobile:</div>
+      <div class="info-value">0506863028</div>
+    </div>
+    <div class="info-row">
+      <div class="info-icon">✉️</div>
+      <div class="info-label">Email:</div>
+      <div class="info-value">Abdullah.suawilem.1@aramco.com</div>
+    </div>
+    <div class="info-row">
+      <div class="info-icon">📍</div>
+      <div class="info-label">Location:</div>
+      <div class="info-value">Dhahran, Saudi Arabia</div>
+    </div>
+  </div>
+</body>
+</html>
