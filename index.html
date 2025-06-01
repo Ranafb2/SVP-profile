@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Business Contact Card</title>
+  <title>Business Card</title>
+  <!-- ✅ Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-SlNpr+GU0Frf+E+LErzRSbUp7CDInffQf1PSkscrH/nI5HzIbq1v3LLZ5z4R/YeRn6NNOgeeq+UFxOqOqVmsew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -33,29 +35,27 @@
 
     .info {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
       gap: 8px;
       font-size: 0.95rem;
       color: #333;
-      margin: 10px 0;
+      margin: 12px 0;
       border-bottom: 1px solid #ccc;
       padding-bottom: 8px;
-    }
-
-    .info:last-child {
-      border-bottom: none;
     }
 
     .info i {
       color: #888;
       font-size: 1rem;
-      width: 20px;
+      min-width: 20px;
       text-align: center;
+      margin-top: 2px;
     }
 
     .label {
       font-weight: bold;
-      min-width: 85px;
+      min-width: 80px;
     }
 
     a {
@@ -67,8 +67,6 @@
       text-decoration: underline;
     }
   </style>
-  <!-- Font Awesome icons -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -78,7 +76,7 @@
     <div class="info">
       <i class="fas fa-briefcase"></i>
       <span class="label">Job Title:</span>
-      <span>SR VP Western region manufacturing</span>
+      <span>SR VP Western Region Manufacturing</span>
     </div>
 
     <div class="info">
